@@ -9,6 +9,7 @@ let person={
 </script>
 
 <template>
+  <h1>Person</h1>
 
     <p>Name:{{ person.name }}</p>
     <p>Age:{{ person.age }}</p>

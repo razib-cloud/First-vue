@@ -10,9 +10,8 @@ const decrease = () => count.value--;
   <h1>Counter</h1>
 
   <p>Value {{ count }}</p>
-
-  <button @click="decrease">Minus</button>
   <button @click="increase">Plus</button>
+  <button @click="decrease">Minus</button>
 </template>
 
 <style scoped></style>
